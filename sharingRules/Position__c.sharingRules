@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Sharing_Rule1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>All records that are owned by members of group b have to shared with members of group A with read write access</description>
+        <label>Sharing Rule1</label>
+        <sharedTo>
+            <group>Group_A</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Group_B</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

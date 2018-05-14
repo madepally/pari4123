@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>C_Sharp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>C-Sharp</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>C__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>C</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Close Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Educational_Qualifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Educational Qualifications</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Full_time__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Full time</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Functional_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Area</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Information_technology</fullName>
+                    <default>false</default>
+                    <label>Information Technology</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Warehousing</fullName>
+                    <default>false</default>
+                    <label>Warehousing</label>
+                </value>
+                <value>
+                    <fullName>Retail Operations</fullName>
+                    <default>false</default>
+                    <label>Retail Operations</label>
+                </value>
+                <value>
+                    <fullName>Human Resources</fullName>
+                    <default>false</default>
+                    <label>Human Resources</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hello__c</fullName>
+        <externalId>false</externalId>
+        <label>Hello</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hiring_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Hiring Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Positions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>JavaScript__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>JavaScript</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Job_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Functional_Area__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IT-100</fullName>
+                    <default>false</default>
+                    <label>IT-100</label>
+                </value>
+                <value>
+                    <fullName>IT-200</fullName>
+                    <default>false</default>
+                    <label>IT-200</label>
+                </value>
+                <value>
+                    <fullName>IT-300</fullName>
+                    <default>false</default>
+                    <label>IT-300</label>
+                </value>
+                <value>
+                    <fullName>SA-100</fullName>
+                    <default>false</default>
+                    <label>SA-100</label>
+                </value>
+                <value>
+                    <fullName>SA-200</fullName>
+                    <default>false</default>
+                    <label>SA-200</label>
+                </value>
+                <value>
+                    <fullName>SA-300</fullName>
+                    <default>false</default>
+                    <label>SA-300</label>
+                </value>
+                <value>
+                    <fullName>MK-100</fullName>
+                    <default>false</default>
+                    <label>MK-100</label>
+                </value>
+                <value>
+                    <fullName>MK-200</fullName>
+                    <default>false</default>
+                    <label>MK-200</label>
+                </value>
+                <value>
+                    <fullName>RO-100</fullName>
+                    <default>false</default>
+                    <label>RO-100</label>
+                </value>
+                <value>
+                    <fullName>RO-200</fullName>
+                    <default>false</default>
+                    <label>RO-200</label>
+                </value>
+                <value>
+                    <fullName>RO-300</fullName>
+                    <default>false</default>
+                    <label>RO-300</label>
+                </value>
+                <value>
+                    <fullName>RO-400</fullName>
+                    <default>false</default>
+                    <label>RO-400</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Information_technology</controllingFieldValue>
+                <valueName>IT-100</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information_technology</controllingFieldValue>
+                <valueName>IT-200</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information_technology</controllingFieldValue>
+                <valueName>IT-300</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>SA-100</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>SA-200</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>MK-100</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>MK-200</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Job_Responsibilities__c</fullName>
+        <defaultValue>&quot;The Job Responsibilities are&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Job Responsibilities</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Maximum_Pay__c</fullName>
+        <externalId>false</externalId>
+        <label>Maximum Pay</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Minimum_Pay__c</fullName>
+        <externalId>false</externalId>
+        <label>Minimum Pay</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>No_of_days_open__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ ISBLANK(Close_Date__c),
+ Today() - Open_Date__c,
+ Close_Date__c - Open_Date__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>No of days open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ruby__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Ruby</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Position</fullName>
+                    <default>true</default>
+                    <label>New Position</label>
+                </value>
+                <value>
+                    <fullName>Open - Approved</fullName>
+                    <default>false</default>
+                    <label>Open - Approved</label>
+                </value>
+                <value>
+                    <fullName>Closed - Filled</fullName>
+                    <default>false</default>
+                    <label>Closed - Filled</label>
+                </value>
+                <value>
+                    <fullName>Closed - Not Approved</fullName>
+                    <default>false</default>
+                    <label>Closed - Not Approved</label>
+                </value>
+                <value>
+                    <fullName>Closed - Cancelled</fullName>
+                    <default>false</default>
+                    <label>Closed - Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Position</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Position Title</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Positions</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>IT_Position</fullName>
+        <active>true</active>
+        <label>IT Position</label>
+        <picklistValues>
+            <picklist>Functional_Area__c</picklist>
+            <values>
+                <fullName>Information_technology</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Job_Level__c</picklist>
+            <values>
+                <fullName>IT-100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT-300</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Filled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Position</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Open - Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Non_IT_Position</fullName>
+        <active>true</active>
+        <label>Non-IT Position</label>
+        <picklistValues>
+            <picklist>Functional_Area__c</picklist>
+            <values>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehousing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Job_Level__c</picklist>
+            <values>
+                <fullName>MK-100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MK-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RO-100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RO-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RO-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RO-400</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SA-100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SA-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SA-300</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Filled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Position</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Open - Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Open_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Close_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Hiring_Manager__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Maximum_Pay__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Minimum_Pay__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Hiring_Manager__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Open_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Minimum_Pay__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Maximum_Pay__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Close_Date__c</searchFilterFields>
+        <searchFilterFields>Educational_Qualifications__c</searchFilterFields>
+        <searchFilterFields>Full_time__c</searchFilterFields>
+        <searchFilterFields>Functional_Area__c</searchFilterFields>
+        <searchFilterFields>Job_Level__c</searchFilterFields>
+        <searchFilterFields>Maximum_Pay__c</searchFilterFields>
+        <searchFilterFields>Minimum_Pay__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>Open_Date__c</searchFilterFields>
+        <searchResultsAdditionalFields>Hiring_Manager__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Job_Responsibilities__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Maximum_Pay__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Minimum_Pay__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>No_of_days_open__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <sharingReasons>
+        <fullName>Reason_2__c</fullName>
+        <label>Reason 2</label>
+    </sharingReasons>
+    <sharingReasons>
+        <fullName>Sharing_Reason_1__c</fullName>
+        <label>Sharing Reason 1</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>Close_Date_Rule</fullName>
+        <active>true</active>
+        <description>If the Status of the position is changed to &quot;Closed-Filled&quot; or &quot;Closed-Cancelled&quot; or &quot;Closed-Cancelled&quot;, make sure that the close date is filled.</description>
+        <errorConditionFormula>(ISPICKVAL( Status__c , &quot;Closed-Filled&quot;) ||
+ ISPICKVAL( Status__c , &quot;Closed-Cancelled&quot;)||
+ ISPICKVAL( Status__c , &quot;Closed-Not Approved&quot;))
+ &amp;&amp; 
+ ISBLANK( Close_Date__c )</errorConditionFormula>
+        <errorDisplayField>Close_Date__c</errorDisplayField>
+        <errorMessage>Please fill in the close date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Max_Pay_Rule</fullName>
+        <active>true</active>
+        <description>Prevent the user from saving a record if the maximum pay is less than the minimum pay.</description>
+        <errorConditionFormula>Minimum_Pay__c &gt; Maximum_Pay__c</errorConditionFormula>
+        <errorDisplayField>Maximum_Pay__c</errorDisplayField>
+        <errorMessage>Please enter a value greater than or equal to Minimum Pay</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_Pay_Rule</fullName>
+        <active>true</active>
+        <description>Prevent the user from saving a record if the min pay is less than 30,000</description>
+        <errorConditionFormula>Minimum_Pay__c &lt; 30000</errorConditionFormula>
+        <errorDisplayField>Minimum_Pay__c</errorDisplayField>
+        <errorMessage>Please enter a value greater than or equal to 30000</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rule_for_Open_Date</fullName>
+        <active>true</active>
+        <description>The open date should be the current date or any date in the future</description>
+        <errorConditionFormula>Open_Date__c &lt;  TODAY()</errorConditionFormula>
+        <errorDisplayField>Open_Date__c</errorDisplayField>
+        <errorMessage>Please enter todays date or any date in the future</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
